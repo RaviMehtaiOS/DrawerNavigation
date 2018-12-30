@@ -25,14 +25,7 @@ const DrawerContainer = createAppContainer(MyDrawerNavigator);
 export default class CommandCenter extends Component {
 
   static navigationOptions = {
-    drawerLabel: 'Home',
-    headerLeft: (
-      <Button
-        onPress={() => this.props.navigation.openDrawer()}
-        title="Info"
-        color="#fff"
-      />
-    ),
+    title: 'Command Center',
     header: null,
   };
 

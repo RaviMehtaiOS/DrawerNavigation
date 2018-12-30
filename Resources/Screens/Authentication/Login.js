@@ -49,7 +49,7 @@ export default class Login extends Component {
         <View style = {{flex: 0.25, backgroundColor: 'red'}}>
           <View style = {{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
             <TouchableOpacity onPress={() => this.methodMoveToSignup()}>
-              <Text style={{color: 'white', fontSize: 25}}>Signup</Text>
+              <Text style={{color: 'black', fontSize: 25, backgroundColor: 'yellow'}}>Signup</Text>
             </TouchableOpacity>
           </View>
         </View>
